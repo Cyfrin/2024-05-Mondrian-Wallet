@@ -1,0 +1,41 @@
+{
+  "name": "mondrian-wallet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Cyfrin/2024-05-Mondrian-Wallet",
+  "author": "PatrickAlphac <54278053+PatrickAlphaC@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat ignition deploy ignition/modules/MondrianModule.js",
+    "test": "hardhat test"
+  },
+  "devDependencies": {
+    "@matterlabs/hardhat-zksync": "^1.0.0",
+    "@matterlabs/zksync-contracts": "^0.6.1",
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.6",
+    "@nomicfoundation/hardhat-ethers": "^3.0.5",
+    "@nomicfoundation/hardhat-ignition": "^0.15.2",
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.15.2",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.10",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.6",
+    "@nomicfoundation/ignition-core": "^0.15.2",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "@openzeppelin/contracts": "^5.0.2",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@typechain/hardhat": "^9.1.0",
+    "chai": "4",
+    "dotenv": "^16.0.3",
+    "ethers": "^6.12.1",
+    "hardhat": "^2.12.4",
+    "hardhat-gas-reporter": "^2.1.1",
+    "mocha": "^10.2.0",
+    "solidity-coverage": "^0.8.12",
+    "typechain": "^8.3.2",
+    "zksync-ethers": "^6.7.0"
+  },
+  "dependencies": {
+    "accountabstraction": "https://github.com/eth-infinitism/account-abstraction"
+  }
+}
