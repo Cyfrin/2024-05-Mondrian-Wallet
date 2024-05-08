@@ -12,8 +12,8 @@
 - Medium - 20xp
 - Low - 2xp
 
-- Starts: XX
-- Ends: XX
+- Starts: May 09, 2024 Noon UTC
+- Ends: May 16, 2024 Noon UTC
 
 ### Stats
 
@@ -62,7 +62,7 @@ Account abstraction (EIP-4337) essentailly allows wallets to sign transactions w
 You can see a diagram of what this looks like below. 
 
 <p align="center">
-<img src="./img/account-abstraction/account-abstraction.png" width="500" alt="account abstraction">
+<img src="https://res.cloudinary.com/droqoz7lg/image/upload/q_90/dpr_2.0/c_fill,g_auto,h_320,w_320/f_auto/v1/company/rareomb6vvaq12ravllt?_a=BATAUVAA0" width="500" alt="account abstraction">
 <br/>
 
 We do not use the `Paymaster` or `Aggregator` in our Mondrian Wallet.
