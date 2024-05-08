@@ -38,6 +38,7 @@ _This is your opportunity to learn about account abstraction!_
 - [About](#about)
   - [What is account abstraction?](#what-is-account-abstraction)
   - [What account abstraction methods are supported in Mondrian Wallet?](#what-account-abstraction-methods-are-supported-in-mondrian-wallet)
+  - [The NFT](#the-nft)
 - [Getting Started](#getting-started)
   - [Requirements](#requirements)
   - [Installation](#installation)
@@ -75,6 +76,10 @@ For our wallet, a user can execute transactions by one of two methods:
 2. A `UserOp` from a user who has a signed transaction from the Mondrian Wallet Owner via the `handleOps` function in the `EntryPoint` contract.
 
 To learn more about how this works, you can read the [EIP-4337](https://eips.ethereum.org/EIPS/eip-4337) documentation.
+
+## The NFT
+
+You'll see the `tokenURI` function returns one of 4 random Mondrian art paintings. Each should have equal distribution and be random. 
 
 # Getting Started 
 
