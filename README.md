@@ -1,8 +1,27 @@
-# Mondrian Wallet
+# First Flight #15: Mondrian Wallet
 
-<p align="center">
-<img src="https://res.cloudinary.com/droqoz7lg/image/upload/q_90/dpr_2.0/c_fill,g_auto,h_320,w_320/f_auto/v1/company/c799spbjvkawb0gozyna?_a=BATAUVAA0" width="300" alt="it's aaaahhhhtt">
-<br/>
+# Table of Contents
+
+- [Mondrian Wallet](#mondrian-wallet)
+- [Contest Details](#contest-details)
+    - [Prize Pool](#prize-pool)
+    - [Stats](#stats)
+    - [Disclaimer](#disclaimer)
+- [Table of Contents](#table-of-contents)
+- [About](#about)
+  - [What is account abstraction?](#what-is-account-abstraction)
+  - [What account abstraction methods are supported in Mondrian Wallet?](#what-account-abstraction-methods-are-supported-in-mondrian-wallet)
+  - [The NFT](#the-nft)
+- [Getting Started](#getting-started)
+  - [Requirements](#requirements)
+  - [Installation](#installation)
+  - [Testing](#testing)
+- [Audit Scope Details](#audit-scope-details)
+  - [Compatibilities](#compatibilities)
+- [Roles](#roles)
+- [Known Issues](#known-issues)
+
+[//]: # (contest-details-open)
 
 # Contest Details
 
@@ -26,28 +45,6 @@ _This code was created for Codehawks as the first flight. It is made with bugs a
 _Don't use any part of this code without reviewing it and audit it._
 
 _This is your opportunity to learn about account abstraction!_
-
-# Table of Contents
-
-- [Mondrian Wallet](#mondrian-wallet)
-- [Contest Details](#contest-details)
-    - [Prize Pool](#prize-pool)
-    - [Stats](#stats)
-    - [Disclaimer](#disclaimer)
-- [Table of Contents](#table-of-contents)
-- [About](#about)
-  - [What is account abstraction?](#what-is-account-abstraction)
-  - [What account abstraction methods are supported in Mondrian Wallet?](#what-account-abstraction-methods-are-supported-in-mondrian-wallet)
-  - [The NFT](#the-nft)
-- [Getting Started](#getting-started)
-  - [Requirements](#requirements)
-  - [Installation](#installation)
-  - [Testing](#testing)
-- [Audit Scope Details](#audit-scope-details)
-  - [Compatibilities](#compatibilities)
-- [Roles](#roles)
-- [Known Issues](#known-issues)
-
 
 # About
 
@@ -81,6 +78,14 @@ To learn more about how this works, you can read the [EIP-4337](https://eips.eth
 
 You'll see the `tokenURI` function returns one of 4 random Mondrian art paintings. Each should have equal distribution and be random. 
 
+## Roles
+
+Owner - The one who can execute transactions by directly calling the `execute` function.
+
+[//]: # (contest-details-close)
+
+[//]: # (getting-started-open)
+
 # Getting Started 
 
 ## Requirements 
@@ -113,6 +118,10 @@ yarn compile
 yarn test
 ```
 
+[//]: # (getting-started-close)
+
+[//]: # (scope-open)
+
 # Audit Scope Details
 
 - In Scope:
@@ -131,11 +140,13 @@ yarn test
 - Deployer address (who will be deploying the contract):
   - 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045
 
-# Roles
+[//]: # (scope-close)
 
-Onwer - The one who can execute transactions by directly calling the `execute` function.
+[//]: # (known-issues-open)
 
 # Known Issues
 
 - None
+
+[//]: # (known-issues-close)
 
